@@ -3,3 +3,4 @@ pycaret
 catboost_info
 logs.log
 requirements-orig.txt
+best_model.pkl
