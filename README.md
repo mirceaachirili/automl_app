@@ -26,21 +26,4 @@ This application runs automated exploratory data analysis using [Pandas Profilin
 
 The app is developed using Streamlit and deployed on a personal website. It leverages the power of Pandas Profiling for data analysis and PyCaret for model training.
 
-## Code snippet
-
-```python
-import streamlit as st
-import pandas as pd
-import os
-import pycaret
-import pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
-from pycaret.classification import *
-
-with st.sidebar:
-    # Code for sidebar...
-
-if os.path.exists('data_source.csv'):
-    df = pd.read_csv('data_source.csv')
-
-# And more...
+To see the full source code, refer to the app.py file in the repository.
